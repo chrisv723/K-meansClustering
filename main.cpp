@@ -8,6 +8,14 @@
  *  the task is to partition the input point set to K clusters such that all points
  *  within one cluster are closer to the centroid of their own cluster (in distance) 
  *  than to the centroids of all other clusters.
+ * 
+ * 
+ * 	To-compile: g++ -std=c++11 .\main.cpp
+ * 
+ *  To-execute: .\a.exe <input file> <num of K centroids> <name of output file one> <name of output file two>
+ *  ------
+ *  --- My specific example: .\a.exe .\Kmean_pt_data.txt 4 outfile1.txt outfile2.txt
+ *  ------
  */
 
 #include <iostream>
